@@ -63,16 +63,20 @@ function App() {
   };
 
   return (
-    <Routes>
-      <Route path="/" element={<NavFooter />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/signup" element={<Signup />} />
-      <Route path="/plans" element={<PlansPage />} />
-      <Route path="/toggle" element={<Toggle />} />
+
+    <div>
+    <h1> HELLO RIDHIMA </h1>
+    </div>
+    // <Routes>
+    //   <Route path="/" element={<NavFooter />} />
+    //   <Route path="/login" element={<Login />} />
+    //   <Route path="/signup" element={<Signup />} />
+    //   <Route path="/plans" element={<PlansPage />} />
+    //   <Route path="/toggle" element={<Toggle />} />
       
 
 
-      {/* <Route path="/welcome" element={<PostTypeSelector onSelect={handleTypeChange} />} />
+      /* <Route path="/welcome" element={<PostTypeSelector onSelect={handleTypeChange} />} />
       <Route
         path="/welcome/question"
         element={<QuestionSection />} // Render the QuestionSection when "Question" is selected
@@ -80,8 +84,9 @@ function App() {
       <Route
         path="/welcome/article"
         element={<ArticleSection />} // Render the ArticleSection when "Article" is selected
-      /> */}
-    </Routes>
+      /> */
+    // </Routes>
+    
   );
 }
 
