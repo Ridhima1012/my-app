@@ -1,0 +1,44 @@
+.footer-box {
+  display: block;
+  margin-top: 200px;
+  justify-content: space-between;
+  background-color: darkcyan;
+  padding: 20px;
+  height: 20%;
+}
+
+.column {
+  display: inline-block;
+  flex-direction: column;
+  margin-left: 230px;
+  margin-right: 180px;
+  vertical-align: top;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 50%;
+  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.Content li{
+    margin : 80px;
+    display: inline-block;
+}
+.Content{
+    display: block;
+    margin: 80px;
+    /* flex-direction: column; */
+  }
+
