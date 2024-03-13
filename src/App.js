@@ -43,24 +43,24 @@
 // export default App;
 
 
-import React, { useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import React from 'react';
+// import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import NavFooter from './NavFooter';
-import Login from './Login';
-import Signup from './Signup';
-import PlansPage from './PlansPage';
-import PostTypeSelector from './PostTypeSelector';
-import QuestionSection from './QuestionForm'; // Import the QuestionSection component
-import ArticleSection from './ArticleForm'; // Import the ArticleSection component
-import Toggle from './Toggle';
+// import NavFooter from './NavFooter';
+// import Login from './Login';
+// import Signup from './Signup';
+// import PlansPage from './PlansPage';
+// import PostTypeSelector from './PostTypeSelector';
+// import QuestionSection from './QuestionForm'; // Import the QuestionSection component
+// import ArticleSection from './ArticleForm'; // Import the ArticleSection component
+// import Toggle from './Toggle';
 
 function App() {
-  const [selectedType, setSelectedType] = useState('question');
+  // const [selectedType, setSelectedType] = useState('question');
 
-  const handleTypeChange = (type) => {
-    setSelectedType(type);
-  };
+  // const handleTypeChange = (type) => {
+  //   setSelectedType(type);
+  // };
 
   return (
 
